@@ -26,6 +26,7 @@
 }
 .mr-body .bott-content{
     max-height: 65vh;
+    overflow: hidden;
 }
 
 .mr-body .carousel-inner img{
@@ -41,6 +42,7 @@
   border-radius: 50%;
   border: 2px solid royalblue;
   background-image: none;
+  margin: 0 5px;
 }
 
 .carousel-control-next-icon:after
@@ -56,4 +58,49 @@
   font-size: 35px;
   font-weight: 700;
   color: royalblue;
+}
+.mr-body .btn-table{
+    margin-bottom: 5px;
+}
+
+@media(max-width:1000px){
+    .mr-body h2, .mr-body .h2{
+        font-size: 22px;
+    }
+    .mr-body h3, .mr-body .h3{
+        font-size: 20px;
+    }
+    .mr-body h4, .mr-body .h4, .mr-body .col{
+        font-size: 15px;
+    }
+    .mr-body .carousel-inner img{
+        width: 250px;
+        height: 250px;
+    }
+    .mr-body .btn-table{
+        font-size: 15px;
+        padding: 5px 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media(max-width:767px){
+    .mr-body h2, .mr-body .h2{
+        font-size: 20px;
+    }
+    .mr-body h3, .mr-body .h3{
+        font-size: 15px;
+    }
+    .mr-body h4, .mr-body .h4, .mr-body .col{
+        font-size: 12px;
+    }
+    .mr-body .carousel-inner img{
+        width: 200px;
+        height: 200px;
+    }
+    .mr-body .btn-table{
+        font-size: 12px;
+        padding: 5px 5px;
+        margin-bottom: 5px;
+    }
 }
